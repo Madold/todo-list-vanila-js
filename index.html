@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Google fonts icons -->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>To-do list with vanilla JS</title>
+</head>
+
+<body>
+
+    <main class="container">
+        <h1 class="container__title">Works to be done</h1>
+        <!-- Input for the task name -->
+        <div class="form-container">
+            <form class="form">
+                <input type="text" id="task-name" class="form__input" placeholder="Enter the work">
+            </form>
+
+            <span class="material-icons-outlined form__icon" id="add-task">add</span>
+        </div>
+        <!-- Task List -->
+        <ul id="todo-list" class="todo-list">
+            
+        </ul>
+    </main>
+
+
+    <!-- <li class="todo-list__item">
+        <div class="todo-list__task">
+            <h2 class="item__title">HTML</h2>
+            <div class="icons">
+                <span class="material-icons-outlined task__icon task__icon--bg1">done</span>
+                <span class="material-icons-outlined task__icon task__icon--bg2">delete</span>
+            </div>
+        </div>
+    </li> -->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
