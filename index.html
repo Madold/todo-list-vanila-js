@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marco Portacio">
+    <meta name="keywords" content="Programming, JS, todolist app, todo list,tasks app">
+    <meta name="description" content="this is a todo-list app developed with vanilla js ">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <!-- Google fonts CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,14 +28,14 @@
         <!-- Input for the task name -->
         <div class="form-container">
             <form class="form">
-                <input type="text" id="task-name" class="form__input" placeholder="Enter the work">
+                <input type="text" id="task-name" maxlength="32" class="form__input" placeholder="Enter the work">
             </form>
 
             <span class="material-icons-outlined form__icon" id="add-task">add</span>
         </div>
         <!-- Task List -->
         <ul id="todo-list" class="todo-list">
-            
+
         </ul>
     </main>
 
